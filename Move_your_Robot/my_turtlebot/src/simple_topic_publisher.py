@@ -15,7 +15,7 @@ var = Twist() # Twist has linear x, y, z and angular x, y and z.
 
 while not rospy.is_shutdown():
     var.linear.x = 0.5
-    var.linear.z = 0.5 # assign linear and angular velocities to the x and z values. 
+    var.angular.z = 0.5 # assign linear and angular velocities to the x and z values. 
     pub.publish(var)
     #pub.publish(count)
     #count.data += 1 # increment at each iteration

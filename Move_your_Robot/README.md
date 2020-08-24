@@ -2,6 +2,8 @@ This assignment uses the concept of ROSTOPICS and ROSMSGS to give velocity comma
 
 Download the my_turtlebot package into your catkin_ws/src folder to get the python scripts in the src folder of the package.
 
+ROSTOPIC used here is /cmd_vel
+
 The robot gets commands through the message type called Twist. 
 
 Twist has Linear (x, y and z) and Angular (x, y and z) Velocities. 

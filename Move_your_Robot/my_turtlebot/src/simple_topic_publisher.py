@@ -1,11 +1,11 @@
-#! /env/bin/env python
+#! /usr/bin/env python
 
 import rospy
+from geometry_msgs.msg import Twist
 
 rospy.init_node("McFries_Publisher")
 pub = rospy.Publisher('/cmd_vel', Twist, queue_size=1) # name of topic
-rate = rospy.rate(2)
-
+rate = rospy.Rate(2)
 
 var = Twist() # Twist has linear x, y, z and angular x, y and z. 
 # All are float64. 

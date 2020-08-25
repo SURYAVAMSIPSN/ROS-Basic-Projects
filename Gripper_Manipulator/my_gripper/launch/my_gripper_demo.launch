@@ -1,0 +1,10 @@
+<launch>
+
+  <include file="$(find iri_wam_reproduce_trajectory)/launch/start_service.launch" />
+  
+  <node pkg="my_gripper" 
+   type="simple_service.py" 
+   name="McNugget_Client" 
+   output="screen"/>
+
+</launch>

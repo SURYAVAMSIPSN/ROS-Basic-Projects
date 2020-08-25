@@ -5,7 +5,8 @@ Instructions:
 2. The .py file is "simple_topic_publisher.py" inside the src folder of the my_turtlebot package.
 3. Launch file is in the launch folder of the same package. 
 4. run the command: roslaunch my_turtlebot my_turtlebot_launch_file.launch
-5. Make sure to.. have fun. :)
+5. The file odometry.py is a subscriber script that subscribes to the /odom topic and reads odometry data. 
+6. The read_odometry.launch file is used to launch the odometry.py script and read the state of the robot. 
 
 ROSTOPIC used here is /cmd_vel
 

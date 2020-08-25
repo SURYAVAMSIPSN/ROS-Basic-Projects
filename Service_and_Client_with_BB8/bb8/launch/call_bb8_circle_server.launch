@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="bb8" type="bb8_circle_client.py" name="bb8_client" output="screen"/>
+</launch>

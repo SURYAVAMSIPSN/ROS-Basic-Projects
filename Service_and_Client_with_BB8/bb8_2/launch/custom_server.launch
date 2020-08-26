@@ -1,0 +1,3 @@
+<launch>
+ <node pkg="bb8_2" type="custom_server.py" name="bb8_2_server" output="screen"/>
+</launch>

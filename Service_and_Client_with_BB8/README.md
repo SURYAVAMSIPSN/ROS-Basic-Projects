@@ -14,3 +14,10 @@ specified amout of time (requested by the client). The server responds with a Tr
 3. Package with name services_quiz
 
 A quiz task in which instead of a circular motion the robot is to be moved in a square like path. 
+
+4. Package with name bb8_class
+
+Implements the similar move in circle task of package 1, with the concept of OOP in python. Here, a class which contains the velovity
+commands is called by the server. Then a similar service/client process is carried out. 
+
+launch the circle_server and circle_client launch files to run the .py files. 

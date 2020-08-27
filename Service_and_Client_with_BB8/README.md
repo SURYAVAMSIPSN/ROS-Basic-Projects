@@ -9,3 +9,8 @@ After running both launch files, the result was captured in the output video.
 
 This is an assignment in which custom .py server and client nodes were made. The task is to make the robot move in a circle for a 
 specified amout of time (requested by the client). The server responds with a True status flag once the task has been carried out. 
+
+
+3. Package with name services_quiz
+
+A quiz task in which instead of a circular motion the robot is to be moved in a square like path. 

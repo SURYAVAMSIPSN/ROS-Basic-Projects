@@ -1,0 +1,4 @@
+float64 side # distance of each side. 
+int32 repetitions # number of repetitions. 
+---
+bool success # success flag. 

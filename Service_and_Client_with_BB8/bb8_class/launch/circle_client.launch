@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="bb8_class" 
+  type="circle_custom_client.py" 
+  name="move_in_circle_client" 
+  output="screen"/>
+</launch>
